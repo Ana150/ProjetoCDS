@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46675230-779F-D014-542B-0CC84E2A7EC1" name="ATIVIDADE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:15:21 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="73297154-9869-A0EE-ECF6-0B82A048C157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codAtividade" id="42FC70B6-6FF8-6B81-7643-BA734677A25B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:15:29 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="73297154-9869-A0EE-ECF6-0B82A048C157" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codEmpregado" id="572AFEB3-C915-147A-F1AF-AD5F8246F6D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:26:38 UTC</createdTime>
+<generatorID>EA0048B8-687F-2F4D-B5A1-EF9D4E6E57C5</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="73297154-9869-A0EE-ECF6-0B82A048C157" value="true"/>
+</engineerTo>
+<referedAttribute>5B184824-1D7C-B56E-7353-78360CF52C7F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="554BAE24-AA41-CDD9-10FE-BE83B22644D4" name="ATIVIDADE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-04 12:15:40 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="73297154-9869-A0EE-ECF6-0B82A048C157" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42FC70B6-6FF8-6B81-7643-BA734677A25B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
