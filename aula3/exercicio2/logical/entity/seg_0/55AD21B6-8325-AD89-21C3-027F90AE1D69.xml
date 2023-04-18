@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55AD21B6-8325-AD89-21C3-027F90AE1D69" name="EMPRESTIMO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:03:51 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_emprestimo" id="CF2D2CA0-418E-A295-5088-EE198B8751B5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:04:10 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="4422D880-3638-21AF-934B-C73CBDD54ECE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:04:37 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_final" id="A385513C-37F7-AE11-3F4D-49C2141C6EBE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:04:48 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="191A5720-F770-743C-5EBD-5F9540A5694C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:30:58 UTC</createdTime>
+<generatorID>26D251F6-3B75-C71E-7E96-7EABC9740166</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<referedAttribute>08444DD8-44DC-D032-65A3-DB04BBE8A610</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B658F21-B2A2-5E15-F28F-A15754D07B05" name="EMPRESTIMO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:04:35 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF2D2CA0-418E-A295-5088-EE198B8751B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

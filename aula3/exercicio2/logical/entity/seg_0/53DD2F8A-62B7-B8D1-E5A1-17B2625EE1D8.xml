@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53DD2F8A-62B7-B8D1-E5A1-17B2625EE1D8" name="LIVRO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:59:31 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_livro" id="08444DD8-44DC-D032-65A3-DB04BBE8A610">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 11:59:45 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="D126D452-12B0-806A-3424-3A8823B92756">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:00:13 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0DD6371-FFCF-A5D2-BF4B-AB09584B42A4" name="LIVRO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:00:10 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08444DD8-44DC-D032-65A3-DB04BBE8A610</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

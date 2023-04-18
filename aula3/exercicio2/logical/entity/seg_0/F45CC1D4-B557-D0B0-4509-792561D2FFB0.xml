@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F45CC1D4-B557-D0B0-4509-792561D2FFB0" name="ALUNO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:06:17 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_aluno" id="BEE059C0-7EB2-FD7B-C5CA-63C4FA9BB7E0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:07:10 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="F2E17BA0-4E77-B9B5-83F5-43F567D6240E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:07:17 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="0CF78FE5-43E7-C593-F256-14B564538C41">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:07:44 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroMatricula" id="CBE5F74C-2796-D6B9-7B67-20419F0378C1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:08:31 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="DC28CBA9-BFB6-160F-347B-74C76C2A7A80">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:08:46 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_emprestimo" id="47044089-B932-7091-4D28-CBE30EED507A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:31:08 UTC</createdTime>
+<generatorID>A5D17345-60C9-0455-E420-81D5F4DF782E</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<referedAttribute>CF2D2CA0-418E-A295-5088-EE198B8751B5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EEA68DA-2C2D-0BD2-9F5D-D3111192CFD3" name="ALUNO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-18 12:07:31 UTC</createdTime>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEE059C0-7EB2-FD7B-C5CA-63C4FA9BB7E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
