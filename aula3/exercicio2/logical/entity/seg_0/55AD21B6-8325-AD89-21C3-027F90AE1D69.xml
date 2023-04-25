@@ -58,6 +58,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cod_aluno" id="7F8D9B08-9799-198B-FF84-B91026EDEFEE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 11:13:06 UTC</createdTime>
+<generatorID>F3901C09-FC82-6335-41D9-4DEB36095F0D</generatorID>
+<ownerDesignName>exercicio2</ownerDesignName>
+<engineerTo>
+<item key="C2670B39-1B69-5593-6474-CA1E00635CDA" value="true"/>
+</engineerTo>
+<referedAttribute>BEE059C0-7EB2-FD7B-C5CA-63C4FA9BB7E0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0B658F21-B2A2-5E15-F28F-A15754D07B05" name="EMPRESTIMO PK">
@@ -70,6 +82,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CF2D2CA0-418E-A295-5088-EE198B8751B5</attributeRef>
+<attributeRef>191A5720-F770-743C-5EBD-5F9540A5694C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

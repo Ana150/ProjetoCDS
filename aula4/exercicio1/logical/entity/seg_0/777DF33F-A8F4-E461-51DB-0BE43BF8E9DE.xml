@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="777DF33F-A8F4-E461-51DB-0BE43BF8E9DE" name="MATRICULAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:20:13 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="8E439DDA-62AB-C4F3-7BA2-64802D8A082C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codMatricula" id="3B3C6636-44AB-AC17-3FBE-3F8B7576A023">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:20:23 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="8E439DDA-62AB-C4F3-7BA2-64802D8A082C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codAluno" id="6113A477-ACFE-E972-A726-6399B262ED9D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:21:17 UTC</createdTime>
+<generatorID>3FECEE92-79E1-E469-A10A-D3A0150BD149</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="8E439DDA-62AB-C4F3-7BA2-64802D8A082C" value="true"/>
+</engineerTo>
+<referedAttribute>E205B9EB-055E-8236-ED43-DA5B0B8FEE94</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codCurso" id="B2DBEBA3-9778-1E96-5DBA-93E528C6474D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:21:37 UTC</createdTime>
+<generatorID>210E42DE-A4D5-F4B5-C958-49B3AA471C12</generatorID>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="8E439DDA-62AB-C4F3-7BA2-64802D8A082C" value="true"/>
+</engineerTo>
+<referedAttribute>F2976DB2-E3C1-9339-FF31-723086FDECE9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E63A3067-C286-53C1-F0BF-DADD602E24B1" name="MATRICULAS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-04-25 12:20:58 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="8E439DDA-62AB-C4F3-7BA2-64802D8A082C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B3C6636-44AB-AC17-3FBE-3F8B7576A023</attributeRef>
+<attributeRef>B2DBEBA3-9778-1E96-5DBA-93E528C6474D</attributeRef>
+<attributeRef>6113A477-ACFE-E972-A726-6399B262ED9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
