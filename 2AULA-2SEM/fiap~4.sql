@@ -1,0 +1,17 @@
+--China
+DESC SI;
+
+SELECT * FROM SI;
+
+INSERT INTO SI VALUES (3,'PETTER');
+INSERT INTO SI VALUES (4,'SCOTT');
+DELETE SI WHERE COD=1;
+SELECT * FROM SI;
+
+COMMIT;
+------------------------------------
+SELECT * FROM SI;
+------------------------------------
+UPDATE SI
+SET COD =200 WHERE COD = 2;
+ROLLBACK;
